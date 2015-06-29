@@ -1,0 +1,24 @@
+{
+  "private": {
+    "github": {
+      "clientId": "{your github API client id here}",
+      "secret": "{your google API secret key here}"
+    },
+    "google": {
+      "clientId": "{your google API client id here}",
+      "secret": "{your google API secret key here}"
+    },
+    "twitter": {
+      "consumerKey": "{your twitter API customer key here}",
+      "secret": "{your twitter API secret key here}"
+    },
+    "facebook": {
+      "appId": "{your facebook API app id here}",
+      "secret": "{your facebook API secret key here}"
+    }
+  },
+  "cluster_discovery_url" : "mongodb://localhost/services",
+  "token_service_secret"  : "superSecretAndSecure",
+  "internal_api_key"      : "iAmForTrinketEyesOnly",
+  "mongo_url"             : "mongodb://localhost/classroom"
+}
